@@ -1,0 +1,67 @@
+doctype html
+<html(lang='en')>
+	<head>
+		title Hello, World!
+		link(rel='stylesheet', href='/css/maincss.css')
+	</head>
+	<body>
+		<div class='fullbodydiv'>
+			// calling Header
+			include /header
+			<div class='main-bodydivone'>		
+				<div class='main-bodydivone-inner'>
+					<div class='detail-heading-div'>
+						<p class='heding-text'> Send Massage To Me</p>
+					</div>
+						<div class='contactus-center'>
+							<form method="post" action="/register">
+								<div class='contactus-align'>
+									<div class='contactus-center-part1'>
+										<b class='all-detail-text-headings'>Name -: </b>
+									</div>
+									<div class='contactus-center-part2'>
+										<input type='text' name='name' ng-model="name" class='input-style'>
+									</div>
+								</div>
+								<div class='contactus-align'>
+									<div class='contactus-center-part1'>
+										<b class='all-detail-text-headings'>Email id -: </b>
+									</div>
+									<div class='contactus-center-part2'>
+										<input type='text' name='name' class='input-style'>
+									</div>
+								</div>
+								<div class='contactus-align'>
+									<div class='contactus-center-part1'>
+										<b class='all-detail-text-headings'>Phone No -: </b>
+									</div>
+									<div class='contactus-center-part2'>
+										<input type='text' name='name' class='input-style'>
+									</div>
+								</div>
+								<div class='contactus-align'>
+									<div class='contactus-center-part1'>
+										<b class='all-detail-text-headings'>Massage -: </b>
+									</div>
+									<div class='contactus-center-part2'>
+										<textarea name='name'  class='textare-conteststyle'> Write Massage</textarea>
+									</div>
+								</div>
+								<div class='contactus-align'>
+									<div class='contactus-center-part1'>
+										
+									</div>
+									<div class='contactus-center-part2'>
+										<input type='submit' name='name' class='submit-style'>
+									</div>
+								</div>
+							</form>
+						</div>
+					<h1>
+					
+				</div>
+				// calling Footer
+				include /footer	
+			</div>
+<body>
+</html>
